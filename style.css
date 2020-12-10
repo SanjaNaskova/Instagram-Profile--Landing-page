@@ -1,0 +1,214 @@
+
+header{
+    /* background-color: #9e9e9e1a; */
+}
+
+ul{
+    padding: 0;
+    margin: 0.2%;
+}
+
+body{
+    /* background-color: rgb(235, 195, 235); */
+    box-sizing: border-box;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.statsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-stats li{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-stats li p{
+    margin: 0;
+    text-align: center;
+}
+
+/* responsive buttons? ista golemina bez razlika na tekstot? */
+#statsBtn{
+    display: flex;
+}
+
+#statsBtn li button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 9%;
+    white-space: nowrap;
+    border: 1px solid #b5aeae;
+    /* nejke padding da se stavi, gi izmestuva kopcinjata */
+}
+
+.borderBottom{
+    border-bottom: 2px solid rgb(196, 191, 191);
+}
+
+.icons{
+    width: 100%;
+    max-width: 30px;
+}
+
+.emoticon{
+    width: 100%;
+    max-width: 20px;
+}
+
+#profilePic{
+    width: 100%;
+    max-width: 130px;
+    border-radius: 50%;
+}
+
+.mobileSymbols{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+}
+
+#blankSpace{
+    flex: 2;
+}
+
+.alignItCenter{
+    align-items: center;
+}
+
+ .flexRowCenter{
+    display: flex;
+    align-items: center;
+    /* margin: 0; */
+ } 
+
+/* dali da ostane za li margin */
+li{
+    margin: 5px 5px;
+    display: inline-flex;
+}
+
+sup{
+    margin: -9px;
+}
+
+.circleRed{
+    padding: 6px;
+    height: 14px;
+    background-color: #f73e3e;
+    border-radius: 50%;
+    margin: -9px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.moveRight{
+    margin-left: 3px;
+}
+
+.txtGrey{
+    color: rgb(151, 150, 150);
+}
+
+.txtCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.paddingT-B{
+    padding: 15px 0;
+}
+
+#profileInfo p{
+    margin: 0;
+}
+
+.lineHeight{
+    line-height: 3em;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+#hightlights p:first-child{
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: 4px double grey;
+    width: 50px;
+    height: 50px;
+
+}
+
+.img-story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#story-1{
+    background-color: aquamarine;
+}
+#story-3{
+    background-image: url('https://www.flaticon.com/premium-icon/icons/svg/2400/2400597.svg');
+     background-size: cover;
+}
+#story-4{
+    background-image: url('https://as1.ftcdn.net/jpg/03/25/74/56/500_F_325745608_r1YDmlNTWgbRhMfAm3l8TFiHNXISKUC2.jpg');
+    background-size: cover;
+}
+#story-5{
+    background-image: url('https://www.flaticon.com/svg/static/icons/svg/3787/3787276.svg');
+    background-size: cover;
+}
+
+#email a{
+    text-decoration: none;
+}
+
+#profile-nav img{
+    opacity: 0.7;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+#images img{
+    width: 100%;
+    max-width: 165px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    width: 100%;
+    max-width: 30px;
+    margin: 2% 0;
+}
+
+footer img:last-child{
+    border-radius: 50%;
+}
